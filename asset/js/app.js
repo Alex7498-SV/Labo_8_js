@@ -85,6 +85,39 @@ const mostrar = ()=>{
     agregar();
    } 
 
+
+var fecha = document.getElementById("fecha");
+fecha.oninput = () => {
+   var valor = fecha.value;
+   if(valor == "" || valor == null){
+     fecha.style.borderColor = "red";
+   }else{
+     fecha.style.borderColor = "green";
+   }
+} 
+
+
+descp
+
+var descp = document.getElementById("descp");
+descp.oninput = () => {
+   var valor = descp.value;
+   if(valor == "" || valor == null){
+     descp.style.borderColor = "red";
+   }else{
+     descp.style.borderColor = "green";
+   }
+} 
+
+var c = document.getElementById("cant");
+c.oninput = () => {
+   var valor = c.value;
+   if(valor == "" || valor == null){
+     c.style.borderColor = "red";
+   }else{
+     c.style.borderColor = "green";
+   }
+} 
 console.log(bitacoras);
 
 
